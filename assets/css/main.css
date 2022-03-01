@@ -2965,10 +2965,14 @@ input, select, textarea {
 			width: calc(50% - 1.25rem);
 		}
 
+			.hifis a img {
+				height: 20vw !important;
+			}
+
 			.gallery a img {
 				display: block;
 				height: 25vw;
-				min-height: 18rem;
+				/* min-height: 18rem; */
 				object-fit: cover;
 				object-position: center;
 				width: 100%;
